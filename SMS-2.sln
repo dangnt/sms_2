@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS-2", "SMS-2\SMS-2.csproj", "{EC83BF1D-D171-42A2-9F0D-FF005766FFAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC83BF1D-D171-42A2-9F0D-FF005766FFAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC83BF1D-D171-42A2-9F0D-FF005766FFAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC83BF1D-D171-42A2-9F0D-FF005766FFAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC83BF1D-D171-42A2-9F0D-FF005766FFAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F34AAF5-2FA7-47D4-A4A0-12A3650F6258}
+	EndGlobalSection
+EndGlobal
