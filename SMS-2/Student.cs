@@ -4,14 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SMS_1
+namespace SMS_2
 {
-    interface IStudent
-    {
-        void printStudent();
-    }
-
-    internal class Student : IStudent
+    internal abstract class Student
     {
         protected string name;
         protected string id;
@@ -36,9 +31,6 @@ namespace SMS_1
             set { id = value; }
         }
 
-        public void printStudent()
-        {
-            Console.WriteLine($"ID: {id}    Name: {name}");
-        }
+        public abstract void printStudent();
     }
 }

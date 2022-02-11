@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SMS_1
+namespace SMS_2
 {
     internal class UndergraduateStudent : Student 
     {
@@ -25,10 +25,9 @@ namespace SMS_1
             set { major = value; }
         }
 
-        public void printUndergraduateStudent()
+        public override void printStudent()
         {
-            printStudent();
-            Console.WriteLine($"    - Major: {major}");
+            Console.WriteLine($"ID: {id}    Name: {name}    Major: {major}");
         }
     }
 }
